@@ -42,7 +42,15 @@ window.addEventListener('scroll',shadowHeader)
 
 
 /*=============== SWIPER FAVORITES ===============*/ 
-
+const swiperFavourites = new Swiper('.favourites__swiper', {
+   
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+  
+   
+  });
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
