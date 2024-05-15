@@ -87,8 +87,8 @@ $5
 
 Mix
 Chips
-$10
 
+$10
 
 ========== CONTACT ==========
 .section__title
