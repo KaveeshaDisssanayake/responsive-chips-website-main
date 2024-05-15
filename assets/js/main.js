@@ -69,3 +69,13 @@ window.addEventListener('scroll' , scrollUp)
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration:2500,
+    delay:300,
+})
+
+sr.reveal(`.home__data`)
+sr.reveal(`.home__circle, .home__img` , {delay:600, scale:.5})
+sr.reveal(`.home__chips-1, .home__chips-2 , .home__chips-3` , {delay:1000, interval:100})
